@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../scss/helpers/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../scss/helpers/utils";
+@import "../node_modules/lightbox2/src/css/lightbox.css";
+
+.otherPro {
+  display: none;
+}
+.active .otherPro {
+  display: flex;
+}
+
